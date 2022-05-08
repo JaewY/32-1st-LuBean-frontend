@@ -18,18 +18,31 @@
 
 ## 구현기능
 
-### Login / Join
+### ✨ Main
+#### 1. 배너 캐러셀
+**기능 1** - 버튼 클릭 시 해당 이미지로 변경
+<br>
+:  버튼마다 id를 부여하여 target된 버튼의 id를 가져와 구현하였습니다.
+<br>
+<br>
+**기능 2** - 이미지 변경 시 fadeIn-Out 애니메이션
+<br>
+: 클릭 이벤트를 통해 동적으로 className을 부여함으로써 구현하였습니다. 
+<br>
+<br>
+**기능 3** - 4초마다 이미지 자동 변경
+<br>
+: setInterval 함수 사용 후 cleartInterval 함수를 콜백으로 return하여 구현하였습니다.
+<br>
+#### 2. 상품 캐러셀 
+**기능 1** - 버튼 클릭 시 상품 4개씩 좌우로 이동
 
-- Login / Join_intro / Join / Join_done 페이지 분할 생성
-- 유효성 검사를 적용하여 input 에 입력 이벤트가 발생할때마다 pass여부를 알림
-- fetch로 back과 서버 통신 완료
+### ✨ Footer
+**기능 1** - 구독하기 버튼 클릭 시 조건에 따라 다른 메세지 alert창 팝업
+<br>
+**기능 2** - 아이콘 클릭 시 개인별 깃헙 링크로 연결
 
-### Main
-
-- 슬라이드 캐러셀 fade in-out 전환
-- setLnterval 4초마다 자동전환
-- 상품리스트 버튼 클릭 시 4개씩 이동
-- 그리드 사용 영상 첨가
+<hr> 
 
 ### List
 
@@ -54,12 +67,18 @@
 - 카테고리 마다 삼각형 생성 / 드롭메뉴 내용 변경
 - 리스트 페이지 이동
 
-### Footer
+### Login / Join
 
-- 구독하기 버튼 클릭 시 조건에 따라 다른 메세지 alert창 팝업
-- 아이콘 클릭 시 깃헙 링크로 연결
+- Login / Join_intro / Join / Join_done 페이지 분할 생성
+- 유효성 검사를 적용하여 input 에 입력 이벤트가 발생할때마다 pass여부를 알림
+- fetch로 back과 서버 통신 완료
 
 ## 상세 화면
+
+### ✨ Main & Footer
+![](https://user-images.githubusercontent.com/89966610/167298207-79686690-20ab-4016-9038-5caf896513ae.png)
+
+<hr>
 
 ### Login
 
@@ -72,9 +91,6 @@
 ![](https://velog.velcdn.com/images/hnmpot/post/
 4d65406e-4a99-4e71-a773-abdd710e9824/image.png)
 
-### Main
-
-![](https://velog.velcdn.com/images/hnmpot/post/36f731a2-a4c8-4eff-a3da-a5ab0c132b94/image.png)
 
 ### List
 
@@ -91,7 +107,3 @@
 ### Nav
 
 ![](https://velog.velcdn.com/images/hnmpot/post/8074225d-4791-4cf4-9e52-40be738c44df/image.png)
-
-### Footer
-
-![](https://velog.velcdn.com/images/hnmpot/post/ef8a100c-185e-4698-a61d-95899188cf39/image.png)
