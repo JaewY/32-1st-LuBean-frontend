@@ -16,7 +16,7 @@
 - Back-End : Python, Django
 - Front-End : React, sass
 
-## 구현기능
+## 구현기능(내가 구현한 부분인 Main, Footer는 ✨로 표기)
 
 ### ✨ Main
 #### 1. 배너 캐러셀
